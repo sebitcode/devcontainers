@@ -1,0 +1,14 @@
+node_modules
+compose
+deploys
+.git
+.next
+.github
+.vscode
+.devcontainer
+.gitignore
+.dockerignore
+.env.example
+*.yml
+README.md
+LICENSE

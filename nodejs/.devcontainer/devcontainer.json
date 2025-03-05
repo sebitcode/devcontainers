@@ -5,7 +5,6 @@
         "vscode": {
             "settings": {},
             "extensions": [
-                // "streetsidesoftware.code-spell-checker",
                 "usernamehw.errorlens",
                 "dsznajder.es7-react-js-snippets",
                 "dbaeumer.vscode-eslint",

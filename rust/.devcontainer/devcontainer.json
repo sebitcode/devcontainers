@@ -1,0 +1,18 @@
+{
+    "name": "Rust",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "usernamehw.errorlens",
+                "sirtori.indenticator",
+                "pkief.material-icon-theme",
+                "zhuangtongfa.material-theme",
+                "rafamel.subtle-brackets",
+                "tamasfe.even-better-toml",
+                "rust-lang.rust-analyzer"
+            ]
+        }
+    }
+}

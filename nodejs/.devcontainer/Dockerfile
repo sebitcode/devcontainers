@@ -1,0 +1,5 @@
+ARG NODE_VERSION=23
+ARG ALPINE_VERSION=3.21
+
+FROM node:${NODE_VERSION}-alpine${ALPINE_VERSION}
+RUN apk add --no-cache git

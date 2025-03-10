@@ -1,0 +1,21 @@
+// For format details, see https://containers.dev/implementors/json_reference/
+{
+    "name": "Python",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "usernamehw.errorlens",
+                "pkief.material-icon-theme",
+                "zhuangtongfa.material-theme",
+                "ms-python.vscode-pylance",
+                "ms-python.python",
+                "charliermarsh.ruff",
+                "rafamel.subtle-brackets",
+                "sirtori.indenticator",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}

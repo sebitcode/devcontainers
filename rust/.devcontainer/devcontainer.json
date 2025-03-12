@@ -5,12 +5,29 @@
         "vscode": {
             "settings": {},
             "extensions": [
+                // ! GENERAL
+                // ERROR ADVISOR
+                "streetsidesoftware.code-spell-checker",
                 "usernamehw.errorlens",
+                // FOCUS
                 "sirtori.indenticator",
+                "rafamel.subtle-brackets",
+                // PRETTY INTERFACE
                 "pkief.material-icon-theme",
                 "zhuangtongfa.material-theme",
-                "rafamel.subtle-brackets",
+                "aaron-bond.better-comments",
+                // GIT MANAGEMENT
+                "eamodio.gitlens",
+                "mhutchie.git-graph",
+                "github.vscode-github-actions",
+                // DEPENDENCIES CHECKER
+                "fill-labs.dependi",
+                // ! CONTAINERS
+                "ms-azuretools.vscode-docker",
+                "redhat.vscode-yaml",
+                // ! LANGUAGE
                 "tamasfe.even-better-toml",
+                // LINTER, AUTOCOMPLETE
                 "rust-lang.rust-analyzer"
             ]
         }

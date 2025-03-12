@@ -6,15 +6,33 @@
         "vscode": {
             "settings": {},
             "extensions": [
+                // ! GENERAL
+                // ERROR ADVISOR
+                "streetsidesoftware.code-spell-checker",
                 "usernamehw.errorlens",
+                // FOCUS
+                "sirtori.indenticator",
+                "rafamel.subtle-brackets",
+                // PRETTY INTERFACE
                 "pkief.material-icon-theme",
                 "zhuangtongfa.material-theme",
+                "aaron-bond.better-comments",
+                // GIT MANAGEMENT
+                "eamodio.gitlens",
+                "mhutchie.git-graph",
+                "github.vscode-github-actions",
+                // DEPENDENCIES CHECKER
+                "fill-labs.dependi",
+                // ! CONTAINERS
+                "ms-azuretools.vscode-docker",
+                "redhat.vscode-yaml",
+                // ! LANGUAGE
+                // ERROR ADVISOR
                 "ms-python.vscode-pylance",
+                // AUTOCOMPLETE
                 "ms-python.python",
-                "charliermarsh.ruff",
-                "rafamel.subtle-brackets",
-                "sirtori.indenticator",
-                "ms-azuretools.vscode-docker"
+                // PRETTY CODE
+                "charliermarsh.ruff"
             ]
         }
     }

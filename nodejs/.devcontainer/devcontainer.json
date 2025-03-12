@@ -5,16 +5,37 @@
         "vscode": {
             "settings": {},
             "extensions": [
+                // ! GENERAL
+                // ERROR ADVISOR
+                "streetsidesoftware.code-spell-checker",
                 "usernamehw.errorlens",
-                "dsznajder.es7-react-js-snippets",
-                "dbaeumer.vscode-eslint",
+                // FOCUS
                 "sirtori.indenticator",
+                "rafamel.subtle-brackets",
+                // PRETTY INTERFACE
                 "pkief.material-icon-theme",
                 "zhuangtongfa.material-theme",
-                "rafamel.subtle-brackets",
+                "aaron-bond.better-comments",
+                // GIT MANAGEMENT
+                "eamodio.gitlens",
+                "mhutchie.git-graph",
+                "github.vscode-github-actions",
+                // DEPENDENCIES CHECKER
+                "fill-labs.dependi",
+                // ! CONTAINERS
+                "ms-azuretools.vscode-docker",
+                "redhat.vscode-yaml",
+                // ! LANGUAGE
+                // ERROR ADVISOR
+                "dbaeumer.vscode-eslint",
+                // PRETTY CODE
+                "esbenp.prettier-vscode",
+                // SNIPPETS
+                "dsznajder.es7-react-js-snippets",
+                "burkeholland.simple-react-snippets",
+                // AUTOCOMPLETE
                 "bradlc.vscode-tailwindcss",
-                "ecmel.vscode-html-css",
-                "christian-kohler.npm-intellisense"
+                "ecmel.vscode-html-css"
             ]
         }
     }

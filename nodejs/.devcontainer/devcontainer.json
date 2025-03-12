@@ -1,9 +1,11 @@
+// For format details, see https://containers.dev/implementors/json_reference/
 {
     "name": "Nodejs",
     "dockerFile": "Dockerfile",
     "customizations": {
         "vscode": {
             "settings": {
+                "cSpell.language": "en,es",
                 "cSpell.words": ["spanish"]
             },
             "extensions": [
@@ -11,7 +13,6 @@
                 // ERROR ADVISOR
                 "usernamehw.errorlens",
                 "streetsidesoftware.code-spell-checker",
-                "streetsidesoftware.code-spell-checker-spanish",
                 // FOCUS
                 "sirtori.indenticator",
                 "rafamel.subtle-brackets",

@@ -3,12 +3,15 @@
     "dockerFile": "Dockerfile",
     "customizations": {
         "vscode": {
-            "settings": {},
+            "settings": {
+                "cSpell.words": ["spanish"]
+            },
             "extensions": [
                 // ! GENERAL
                 // ERROR ADVISOR
-                "streetsidesoftware.code-spell-checker",
                 "usernamehw.errorlens",
+                "streetsidesoftware.code-spell-checker",
+                "streetsidesoftware.code-spell-checker-spanish",
                 // FOCUS
                 "sirtori.indenticator",
                 "rafamel.subtle-brackets",

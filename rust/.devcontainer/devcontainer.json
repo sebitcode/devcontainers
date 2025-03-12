@@ -27,7 +27,7 @@
                 "github.vscode-github-actions",
                 // DEPENDENCIES CHECKER
                 "fill-labs.dependi",
-                // ! CONTAINERS
+                // CONTAINERS
                 "ms-azuretools.vscode-docker",
                 "redhat.vscode-yaml",
                 // ! LANGUAGE

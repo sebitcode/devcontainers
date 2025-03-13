@@ -6,24 +6,29 @@
         "vscode": {
             "settings": {
                 "cSpell.language": "en,es",
-                "cSpell.words": ["spanish"]
+                "cSpell.words": ["spanish"],
+                "bookmarks.saveBookmarksInProject": true
             },
             "extensions": [
                 // ! GENERAL
                 // ERROR ADVISOR
                 "usernamehw.errorlens",
+                // SPELLING
+                "Cardinal90.multi-cursor-case-preserve",
                 "streetsidesoftware.code-spell-checker",
                 "streetsidesoftware.code-spell-checker-spanish",
                 // FOCUS
                 "sirtori.indenticator",
                 "rafamel.subtle-brackets",
+                "alefragnani.Bookmarks",
                 // PRETTY INTERFACE
                 "pkief.material-icon-theme",
                 "zhuangtongfa.material-theme",
-                "aaron-bond.better-comments",
+                "aaron-bond.better-comments", // TODO: local machine
                 // GIT MANAGEMENT
                 "eamodio.gitlens",
                 "mhutchie.git-graph",
+                "donjayamanne.githistory",
                 "github.vscode-github-actions",
                 // DEPENDENCIES CHECKER
                 "fill-labs.dependi",
@@ -34,7 +39,7 @@
                 // ERROR ADVISOR
                 "dbaeumer.vscode-eslint",
                 // PRETTY CODE
-                "esbenp.prettier-vscode",
+                "esbenp.prettier-vscode", // TODO: local machine
                 // SNIPPETS
                 "dsznajder.es7-react-js-snippets",
                 "burkeholland.simple-react-snippets",

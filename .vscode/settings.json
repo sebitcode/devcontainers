@@ -1,0 +1,42 @@
+{
+    // ! Default VS Code Settings
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "editor.wordWrap": "on",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    // ! Extensions Settings
+    "cSpell.language": "en,es",
+    "cSpell.words": ["spanish"],
+    "bookmarks.saveBookmarksInProject": true,
+    "dev.containers.defaultExtensionsIfInstalledLocally": [
+        // ! Comments
+        "aaron-bond.better-comments", // TODO: local machine
+        // ! Dependencies
+        "fill-labs.dependi",
+        // ! Error Advisor
+        "usernamehw.errorlens",
+        // ! Spelling
+        "Cardinal90.multi-cursor-case-preserve",
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-spanish",
+        // ! Theme
+        "zhuangtongfa.material-theme",
+        "pkief.material-icon-theme",
+        "mechatroner.rainbow-csv",
+        // ! Focus
+        "sirtori.indenticator",
+        "rafamel.subtle-brackets",
+        "alefragnani.Bookmarks",
+        // ! Docker
+        // "ms-vscode-remote.remote-containers",
+        "ms-azuretools.vscode-docker",
+        "docker.docker",
+        "redhat.vscode-yaml",
+        // ! Git
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        "donjayamanne.githistory",
+        "github.vscode-github-actions",
+    ]
+}

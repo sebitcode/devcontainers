@@ -2,6 +2,7 @@
 {
     "name": "Nodejs",
     "dockerFile": "Dockerfile",
+    "remoteUser": "sebitcode",
     "customizations": {
         "vscode": {
             "extensions": [

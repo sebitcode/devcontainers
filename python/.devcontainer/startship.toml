@@ -1,0 +1,134 @@
+# ~/.config/starship.toml - Beautiful cross-shell prompt
+
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+# Main prompt format
+format = """
+[╭─](bold green)$os$username$hostname$directory$git_branch$git_status$git_metrics$docker_context$nodejs$python$rust$golang$java$package
+[╰─](bold green)$character"""
+
+# Right prompt format
+right_format = """$cmd_duration$time"""
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+vicmd_symbol = "[❮](bold green)"
+
+[directory]
+style = "bold cyan"
+truncation_length = 3
+truncation_symbol = "…/"
+truncate_to_repo = true
+
+[git_branch]
+symbol = " "
+style = "bold purple"
+format = "[$symbol$branch]($style)"
+
+[git_status]
+style = "bold yellow"
+format = "[$all_status$ahead_behind]($style)"
+conflicted = "🏳"
+up_to_date = "✓"
+untracked = "?"
+ahead = "⇡${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+behind = "⇣${count}"
+stashed = "📦"
+modified = "!"
+staged = "+"
+renamed = "»"
+deleted = "✘"
+
+[git_metrics]
+added_style = "bold blue"
+deleted_style = "bold red"
+only_nonzero_diffs = true
+format = "([+$added]($added_style) )([-$deleted]($deleted_style) )"
+disabled = false
+
+[cmd_duration]
+min_time = 2_000
+format = " took [$duration](bold yellow)"
+show_milliseconds = false
+
+[time]
+disabled = false
+format = "[$time](bold blue)"
+time_format = "%R"
+
+[username]
+style_user = "bold yellow"
+style_root = "bold red"
+format = "[$user]($style)"
+disabled = false
+
+[hostname]
+ssh_only = false
+format = "@[$hostname](bold blue)"
+disabled = false
+
+[os]
+format = "[$symbol](bold white)"
+disabled = false
+
+[os.symbols]
+Windows = "󰍲"
+Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Mint = "󰣭"
+Macos = "󰀵"
+Manjaro = ""
+Linux = "󰌽"
+Gentoo = "󰣨"
+Fedora = "󰣛"
+Alpine = ""
+Amazon = ""
+Android = ""
+Arch = "󰣇"
+Artix = "󰣇"
+CentOS = ""
+Debian = "󰣚"
+Redhat = "󱄛"
+RedHatEnterprise = "󱄛"
+
+[docker_context]
+format = " [🐳 $context](blue bold)"
+only_with_files = true
+detect_files = ["docker-compose.yml", "docker-compose.yaml", "Dockerfile"]
+detect_folders = []
+
+[nodejs]
+format = " [⬢ $version](bold green)"
+detect_files = ["package.json", ".nvmrc"]
+detect_folders = ["node_modules"]
+
+[python]
+format = " [🐍 $version](bold green)"
+detect_extensions = ["py"]
+detect_files = ["requirements.txt", ".python-version", "pyproject.toml", "Pipfile"]
+
+[rust]
+format = " [⚙️ $version](red bold)"
+detect_extensions = ["rs"]
+detect_files = ["Cargo.toml"]
+
+[golang]
+format = " [🐹 $version](bold cyan)"
+detect_extensions = ["go"]
+detect_files = ["go.mod", "go.sum", "glide.yaml", "Gopkg.yml", "Gopkg.lock", ".go-version"]
+
+[java]
+format = " [☕ $version](red dimmed)"
+detect_extensions = ["java", "class", "gradle", "jar", "cljs", "cljc"]
+detect_files = ["pom.xml", "build.gradle.kts", "build.sbt", ".java-version", ".deps.edn", "project.clj", "build.boot"]
+
+[package]
+format = " [📦 $version](208 bold)"
+display_private = false
